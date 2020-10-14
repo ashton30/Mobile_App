@@ -14,7 +14,7 @@ public class StartScreen extends AppCompatActivity {
         setContentView(R.layout.activity_start_screen);
     }
 
-    private void launchList(View view) {
+    public void launchList(View view) {
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
